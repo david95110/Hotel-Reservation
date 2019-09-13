@@ -8,10 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
+        <activity android:name=".MaindashboardActivity"></activity>
         <activity
             android:name=".SpaActivity"
-            android:theme="@style/DashBoardTheme"
-            ></activity>
+            android:theme="@style/DashBoardTheme" />
         <activity
             android:name=".ActivitiesActivity"
             android:theme="@style/DashBoardTheme" />
