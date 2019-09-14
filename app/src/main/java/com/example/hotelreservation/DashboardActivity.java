@@ -63,12 +63,12 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     public void openActivity(){
-        Intent intent = new Intent(this,RoomserviceActivity.class);
+        Intent intent = new Intent(this,ActivitiesActivity.class);
         startActivity(intent);
     }
 
     public void openSpa(){
-        Intent intent = new Intent(this,RoomserviceActivity.class);
+        Intent intent = new Intent(this,SpaActivity.class);
         startActivity(intent);
     }
 
