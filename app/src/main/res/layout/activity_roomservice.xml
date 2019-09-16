@@ -5,18 +5,137 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RoomserviceActivity"
-    android:background="@drawable/service"
-    android:alpha="0.6">
+    android:background="@drawable/service1"
+    >
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OUR SERVICE"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="130dp"
         android:textStyle="bold"
         android:fontFamily="sans-serif-condensed"
         android:textSize="30dp"
         android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service to you is the best thing"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medical Service"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you need a medical help ?
+        Please get our medica service"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* 24 hour service
+                            * Nursing and staff
+                                * Quick respond"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="180dp"
+        android:textStyle=""
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="19dp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/medi"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="19dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room Service"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/room"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="19dp"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need to clean your room ?
+                      Make a request , we here.."
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Available 6 am - 11pm
+                            * Laundry,Drycleaning
+                                * Cleaning room
+                                    * Quick service"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="180dp"
+        android:textStyle=""
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="19dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/getServiceBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="GET SERVICE"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="190dp"
+        android:background="@drawable/button"/>
+
+
 </RelativeLayout>

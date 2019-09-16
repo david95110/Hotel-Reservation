@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".GetserviceActivity"
             android:theme="@style/LoginAppTheme" />
         <activity
             android:name=".MainActivity"
