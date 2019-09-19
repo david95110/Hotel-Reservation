@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RoomserviceActivity"
-    android:background="@drawable/service1"
-    >
+    android:background="@drawable/service1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView9"
@@ -113,14 +116,16 @@
         android:textSize="20dp"
         android:textColor="#000000" />
 
-    <TextView
+
+        <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="* Available 6 am - 11pm
                             * Laundry,Drycleaning
                                 * Cleaning room
-                                    * Quick service"
+                                    * Change towels
+                                         * Quick service"
         android:layout_marginTop="455dp"
         android:layout_marginLeft="180dp"
         android:textStyle=""
@@ -128,14 +133,162 @@
         android:textSize="19dp"
         android:textColor="#000000"/>
 
-    <Button
-        android:id="@+id/getServiceBtn"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="GET SERVICE"
-        android:layout_marginTop="590dp"
-        android:layout_marginLeft="190dp"
-        android:background="@drawable/button"/>
+        <TextView
+            android:id="@+id/dup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baby Care"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/dup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need to Lookafter your baby ?
+                      We care him like you.."
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="150dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Available 10 am - 11pm
+                            * Make him smile,comfotable
+                                and healthy
+                                    * Play ,Teach and Care
+                                        * Trusted service"
+            android:layout_marginTop="660dp"
+            android:layout_marginLeft="180dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/dup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library"
+            android:layout_marginTop="840dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/dup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Books good therapy for mind
+                                        Make a request , we bring you a Book"
+            android:layout_marginTop="840dp"
+            android:layout_marginLeft="150dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Available 9 am - 5 pm
+                            * Books,Magazines
+                                  * Any Language
+                                    * Quick service"
+            android:layout_marginTop="930dp"
+            android:layout_marginLeft="180dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/dup6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cinema"
+            android:layout_marginTop="1060dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/dup7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It is movie time
+                             Enjoy the moment"
+            android:layout_marginTop="1060dp"
+            android:layout_marginLeft="150dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dup8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Available 9 am - 9 pm
+                            * KIds,Action and Romantic
+                                * Any Language
+                                    * Quick service"
+            android:layout_marginTop="1120dp"
+            android:layout_marginLeft="180dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/getServiceBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="GET SERVICE"
+            android:layout_marginTop="1250dp"
+            android:layout_marginLeft="190dp"
+            android:background="@drawable/button"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="19dp"
+            app:srcCompat="@drawable/baby" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="900dp"
+            android:layout_marginLeft="19dp"
+            app:srcCompat="@drawable/book" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="1120dp"
+            android:layout_marginLeft="19dp"
+            app:srcCompat="@drawable/movie" />
 
 
-</RelativeLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
