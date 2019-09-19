@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Hotel Reservation</string>
+
+    <string-array name= "names">
+        <item>BREAKFAST</item>
+        <item>LUNCH</item>
+        <item>TEA TIME</item>
+        <item>DINNER</item>
+    </string-array>
 </resources>
