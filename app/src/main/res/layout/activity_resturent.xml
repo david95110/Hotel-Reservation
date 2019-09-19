@@ -49,6 +49,7 @@
             android:textSize="30dp"
             android:textColor="#000000"/>
 
+
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
@@ -72,7 +73,7 @@
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
             android:paddingBottom="10dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="260dp"
             android:layout_marginLeft="10dp"
             android:background="@drawable/menu"
             />
@@ -81,13 +82,202 @@
             android:id="@+id/b11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sandwich with tea"
-            android:layout_marginTop="360dp"
-            android:layout_marginLeft="30dp"
+            android:text="Pancake with Juice"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="19dp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
             android:textSize="20dp"
             android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Omelet Sandwich
+                            * Brown Sandwich
+                                * Crunchy Sandwich
+                                    * Cheese Sandwich
+                                        * Chicken Sandwich
+                                            * Fish Sandwich"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="240dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/b2"
+            android:layout_alignLeft="@+id/b2"
+            android:layout_alignTop="@+id/b2"
+            android:layout_alignEnd="@+id/b2"
+            android:layout_alignRight="@+id/b2"
+            android:layout_alignBottom="@+id/b2"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/b2" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu"
+            />
+
+        <TextView
+            android:id="@+id/b21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandwich with Tea"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="19dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Blueberry Pancake
+                            * Brown Pancake
+                                * Strawberry Pancake
+                                    * Cheese Pancake
+                                        * Butter Pancake
+                                            * Vanilla Pancake"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="240dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/b3"
+            android:layout_alignLeft="@+id/b3"
+            android:layout_alignTop="@+id/b3"
+            android:layout_alignEnd="@+id/b3"
+            android:layout_alignRight="@+id/b3"
+            android:layout_alignBottom="@+id/b3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/b3" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="720dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu"
+            />
+
+        <TextView
+            android:id="@+id/b31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasta"
+            android:layout_marginTop="680dp"
+            android:layout_marginLeft="19dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Chilly Pasta
+                            * Chicken Pasta
+                                * Fish Pasta
+                                    * Cheese Pasta
+                                        * Butter Pasta
+                                            * White-sauce Pasta"
+            android:layout_marginTop="740dp"
+            android:layout_marginLeft="240dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/b4"
+            android:layout_alignLeft="@+id/b4"
+            android:layout_alignTop="@+id/b4"
+            android:layout_alignEnd="@+id/b4"
+            android:layout_alignRight="@+id/b4"
+            android:layout_alignBottom="@+id/b4"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/b4" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="950dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu"
+            />
+
+        <TextView
+            android:id="@+id/b41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Traditional"
+            android:layout_marginTop="900dp"
+            android:layout_marginLeft="19dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Milk Rice
+                            * String Hoppers
+                                * Rice and Curry
+                                    * Pittu
+                                        * Halapa
+                                             "
+            android:layout_marginTop="960dp"
+            android:layout_marginLeft="240dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
 
     </RelativeLayout>
 
