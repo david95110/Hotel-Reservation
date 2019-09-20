@@ -29,7 +29,7 @@ public class RestaurantActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if(i == 1){
                     startActivity(new Intent(RestaurantActivity.this,LunchActivity.class));
-                }else if(i == 2){
+                } else if(i == 2){
                     startActivity(new Intent(RestaurantActivity.this,TeaTimeActivity.class));
                 }else if(i == 3){
                     startActivity(new Intent(RestaurantActivity.this,DinnerActivity.class));

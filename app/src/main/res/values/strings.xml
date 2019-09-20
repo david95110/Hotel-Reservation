@@ -7,4 +7,32 @@
         <item>TEA TIME</item>
         <item>DINNER</item>
     </string-array>
+
+    <string name="app_name_lunch">Hotel Reservation</string>
+
+    <string-array name="lunch">
+        <item>LUNCH</item>
+        <item>BREAKFAST</item>
+        <item>TEA TIME</item>
+        <item>DINNER</item>
+    </string-array>
+
+    <string name="app_name_teatime">Hotel Reservation</string>
+
+    <string-array name="tea">
+        <item>TEA TIME</item>
+        <item>BREAKFAST</item>
+        <item>LUNCH</item>
+        <item>DINNER</item>
+    </string-array>
+
+    <string name="app_name_dinner">Hotel Reservation</string>
+
+    <string-array name="dinner">
+        <item>DINNER</item>
+        <item>BREAKFAST</item>
+        <item>LUNCH</item>
+        <item>TEA TIME</item>
+    </string-array>
+
 </resources>
