@@ -7,9 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class RestaurantActivity extends AppCompatActivity {
+
+    private Button B1;
+    private Button B2;
+    private Button B3;
+    private Button B4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,5 +47,43 @@ public class RestaurantActivity extends AppCompatActivity {
 
             }
         });
+
+            B1 = (Button)findViewById(R.id.breakfastBtn1);
+            B1.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View view) {
+                    openGetmenu();
+                }
+            });
+
+        B2 = (Button)findViewById(R.id.breakfastBtn2);
+        B2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetmenu();
+            }
+        });
+
+        B3 = (Button)findViewById(R.id.breakfastBtn3);
+        B3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetmenu();
+            }
+        });
+
+        B4 = (Button)findViewById(R.id.breakfastBtn4);
+        B4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetmenu();
+            }
+        });
     }
+
+    public void openGetmenu(){
+        Intent intent = new Intent(this,GetMenuActivity.class);
+        startActivity(intent);
+    }
+
 }

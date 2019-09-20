@@ -49,12 +49,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/b1"
-            android:layout_alignLeft="@+id/b1"
-            android:layout_alignTop="@+id/b1"
-            android:layout_alignEnd="@+id/b1"
-            android:layout_alignRight="@+id/b1"
-            android:layout_alignBottom="@+id/b1"
+            android:layout_alignStart="@+id/breakfastBtn1"
+            android:layout_alignLeft="@+id/breakfastBtn1"
+            android:layout_alignTop="@+id/breakfastBtn1"
+            android:layout_alignEnd="@+id/breakfastBtn1"
+            android:layout_alignRight="@+id/breakfastBtn1"
+            android:layout_alignBottom="@+id/breakfastBtn1"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -64,7 +64,7 @@
             app:srcCompat="@drawable/b1" />
 
         <Button
-            android:id="@+id/b1"
+            android:id="@+id/breakfastBtn1"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
@@ -106,12 +106,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/b2"
-            android:layout_alignLeft="@+id/b2"
-            android:layout_alignTop="@+id/b2"
-            android:layout_alignEnd="@+id/b2"
-            android:layout_alignRight="@+id/b2"
-            android:layout_alignBottom="@+id/b2"
+            android:layout_alignStart="@+id/breakfastBtn2"
+            android:layout_alignLeft="@+id/breakfastBtn2"
+            android:layout_alignTop="@+id/breakfastBtn2"
+            android:layout_alignEnd="@+id/breakfastBtn2"
+            android:layout_alignRight="@+id/breakfastBtn2"
+            android:layout_alignBottom="@+id/breakfastBtn2"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -121,7 +121,7 @@
             app:srcCompat="@drawable/b2" />
 
         <Button
-            android:id="@+id/b2"
+            android:id="@+id/breakfastBtn2"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
@@ -164,12 +164,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/b3"
-            android:layout_alignLeft="@+id/b3"
-            android:layout_alignTop="@+id/b3"
-            android:layout_alignEnd="@+id/b3"
-            android:layout_alignRight="@+id/b3"
-            android:layout_alignBottom="@+id/b3"
+            android:layout_alignStart="@+id/breakfastBtn3"
+            android:layout_alignLeft="@+id/breakfastBtn3"
+            android:layout_alignTop="@+id/breakfastBtn3"
+            android:layout_alignEnd="@+id/breakfastBtn3"
+            android:layout_alignRight="@+id/breakfastBtn3"
+            android:layout_alignBottom="@+id/breakfastBtn3"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -179,7 +179,7 @@
             app:srcCompat="@drawable/b3" />
 
         <Button
-            android:id="@+id/b3"
+            android:id="@+id/breakfastBtn3"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
@@ -221,12 +221,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/b4"
-            android:layout_alignLeft="@+id/b4"
-            android:layout_alignTop="@+id/b4"
-            android:layout_alignEnd="@+id/b4"
-            android:layout_alignRight="@+id/b4"
-            android:layout_alignBottom="@+id/b4"
+            android:layout_alignStart="@+id/breakfastBtn4"
+            android:layout_alignLeft="@+id/breakfastBtn4"
+            android:layout_alignTop="@+id/breakfastBtn4"
+            android:layout_alignEnd="@+id/breakfastBtn4"
+            android:layout_alignRight="@+id/breakfastBtn4"
+            android:layout_alignBottom="@+id/breakfastBtn4"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -236,7 +236,7 @@
             app:srcCompat="@drawable/b4" />
 
         <Button
-            android:id="@+id/b4"
+            android:id="@+id/breakfastBtn4"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
