@@ -95,7 +95,7 @@
                                 * Crunchy Sandwich
                                     * Cheese Sandwich
                                         * Chicken Sandwich
-                                            * Fish Sandwich"
+                                            * 1300 per person"
             android:layout_marginTop="255dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
@@ -152,7 +152,8 @@
                                 * Strawberry Pancake
                                     * Cheese Pancake
                                         * Butter Pancake
-                                            * Vanilla Pancake"
+                                            * Vanilla Pancake
+                                                * 1200 per person"
             android:layout_marginTop="480dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
@@ -208,8 +209,8 @@
                             * Chicken Pasta
                                 * Fish Pasta
                                     * Cheese Pasta
-                                        * Butter Pasta
-                                            * White-sauce Pasta"
+                                        * White-sauce Pasta
+                                            * 1500 per person"
             android:layout_marginTop="740dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
@@ -268,7 +269,7 @@
                                 * Rice and Curry
                                     * Pittu
                                         * Halapa
-                                             "
+                                             * 1200 per person"
             android:layout_marginTop="960dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
