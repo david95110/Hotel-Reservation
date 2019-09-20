@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResturentActivity"
+    tools:context=".RestaurantActivity"
     android:background="@drawable/resturant">
 
     <RelativeLayout
@@ -22,7 +22,7 @@
             android:layout_marginLeft="130dp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textColor="#000000"/>
 
         <TextView
@@ -34,7 +34,7 @@
             android:layout_marginLeft="120dp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="#000000" />
 
         <Spinner

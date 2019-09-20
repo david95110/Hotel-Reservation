@@ -53,7 +53,7 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     public void openResturant(){
-        Intent intent = new Intent(this,ResturentActivity.class);
+        Intent intent = new Intent(this, RestaurantActivity.class);
         startActivity(intent);
     }
 
