@@ -9,6 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
+            android:name=".GetActivitiesActivity"
+            android:theme="@style/DashBoardTheme"/>
+        <activity
+            android:name=".GetDinnerActivity"
+            android:theme="@style/DashBoardTheme" />
+        <activity
+            android:name=".GetTeaActivity"
+            android:theme="@style/DashBoardTheme" />
+        <activity
             android:name=".GetLunchActivity"
             android:theme="@style/DashBoardTheme" />
         <activity

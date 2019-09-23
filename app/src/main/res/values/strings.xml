@@ -57,4 +57,24 @@
     </string-array>
 
 
+    <string name="app_name_menuTea">Hotel Reservation</string>
+
+    <string-array name="menuTea">
+        <item></item>
+        <item>Cakes</item>
+        <item>Burger</item>
+        <item>Pizza</item>
+    </string-array>
+
+    <string name="app_name_menuDinner">Hotel Reservation</string>
+
+    <string-array name="menuDinner">
+        <item></item>
+        <item>Pasta</item>
+        <item>Burger</item>
+        <item>Pizza</item>
+        <item>Sea Food and Paul Rice</item>
+    </string-array>
+
+
 </resources>

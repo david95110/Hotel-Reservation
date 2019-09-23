@@ -218,12 +218,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/lunchBtn4"
-            android:layout_alignLeft="@+id/lunchBtn4"
-            android:layout_alignTop="@+id/lunchBtn4"
-            android:layout_alignEnd="@+id/lunchBtn4"
-            android:layout_alignRight="@+id/lunchBtn4"
-            android:layout_alignBottom="@+id/lunchBtn4"
+            android:layout_alignStart="@+id/dinnerBtn4"
+            android:layout_alignLeft="@+id/dinnerBtn4"
+            android:layout_alignTop="@+id/dinnerBtn4"
+            android:layout_alignEnd="@+id/dinnerBtn4"
+            android:layout_alignRight="@+id/dinnerBtn4"
+            android:layout_alignBottom="@+id/dinnerBtn4"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -233,7 +233,7 @@
             app:srcCompat="@drawable/l4" />
 
         <Button
-            android:id="@+id/lunchBtn4"
+            android:id="@+id/dinnerBtn4"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
@@ -332,6 +332,11 @@
             android:fontFamily="sans-serif-condensed"
             android:textSize="19dp"
             android:textColor="#000000"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_marginTop="1350dp"/>
 
     </RelativeLayout>
 

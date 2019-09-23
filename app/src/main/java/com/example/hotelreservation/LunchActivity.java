@@ -73,7 +73,7 @@ public class LunchActivity extends AppCompatActivity {
             }
         });
 
-        L4 = (Button)findViewById(R.id.lunchBtn4);
+        L4 = (Button)findViewById(R.id.dinnerBtn4);
         L4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {

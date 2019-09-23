@@ -48,13 +48,14 @@ public class RestaurantActivity extends AppCompatActivity {
             }
         });
 
-            B1 = (Button)findViewById(R.id.breakfastBtn1);
-            B1.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick(View view) {
-                    openGetmenu();
-                }
-            });
+
+        B1 = (Button)findViewById(R.id.breakfastBtn1);
+        B1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetmenu();
+            }
+        });
 
         B2 = (Button)findViewById(R.id.dinnerBtn2);
         B2.setOnClickListener(new View.OnClickListener(){

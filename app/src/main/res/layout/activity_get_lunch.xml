@@ -56,7 +56,7 @@
         android:ems="10"
         android:hint="Phone Number"
         android:gravity="center"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:text=""
         android:textColor="@android:color/black"
         />

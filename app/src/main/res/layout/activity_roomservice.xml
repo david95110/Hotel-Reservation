@@ -286,6 +286,10 @@
             android:layout_marginTop="1120dp"
             android:layout_marginLeft="19dp"
             app:srcCompat="@drawable/movie" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_marginTop="1350dp"/>
 
 
     </RelativeLayout>

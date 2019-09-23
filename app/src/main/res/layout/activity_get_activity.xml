@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GetserviceActivity"
+    tools:context=".GetActivitiesActivity"
     android:background="@drawable/loginbck">
 
     <TextView
@@ -68,7 +68,7 @@
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:hint="Service Type"
+        android:hint="Activity Type"
         android:gravity="center"
         android:inputType="textPersonName"
         android:text=""
@@ -91,7 +91,7 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get Our Service"
+        android:text="Activities"
         android:textSize="30dp"
         android:fontFamily="sans-serif-condensed"
         android:textColor="@android:color/black"
@@ -110,6 +110,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="490dp"
         android:background="@drawable/ecittxt_login"/>
-
 
 </RelativeLayout>

@@ -7,9 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class TeaTimeActivity extends AppCompatActivity {
+
+    private Button T1;
+    private Button T2;
+    private Button T3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,5 +46,35 @@ public class TeaTimeActivity extends AppCompatActivity {
 
             }
         });
+
+        T1 = (Button)findViewById(R.id.dinnerBtn1);
+        T1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetTea();
+            }
+        });
+
+        T2 = (Button)findViewById(R.id.dinnerBtn2);
+        T2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetTea();
+            }
+        });
+
+        T3 = (Button)findViewById(R.id.dinnerBtn3);
+        T3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetTea();
+            }
+        });
+
+    }
+
+    public void openGetTea(){
+        Intent intent = new Intent(this,GetTeaActivity.class);
+        startActivity(intent);
     }
 }
