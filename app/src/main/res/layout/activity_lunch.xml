@@ -46,12 +46,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/l1"
-            android:layout_alignLeft="@+id/l1"
-            android:layout_alignTop="@+id/l1"
-            android:layout_alignEnd="@+id/l1"
-            android:layout_alignRight="@+id/l1"
-            android:layout_alignBottom="@+id/l1"
+            android:layout_alignStart="@+id/lunchBtn1"
+            android:layout_alignLeft="@+id/lunchBtn1"
+            android:layout_alignTop="@+id/lunchBtn1"
+            android:layout_alignEnd="@+id/lunchBtn1"
+            android:layout_alignRight="@+id/lunchBtn1"
+            android:layout_alignBottom="@+id/lunchBtn1"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -61,7 +61,7 @@
             app:srcCompat="@drawable/l1"  />
 
         <Button
-            android:id="@+id/l1"
+            android:id="@+id/lunchBtn1"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
@@ -104,12 +104,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/l2"
-            android:layout_alignLeft="@+id/l2"
-            android:layout_alignTop="@+id/l2"
-            android:layout_alignEnd="@+id/l2"
-            android:layout_alignRight="@+id/l2"
-            android:layout_alignBottom="@+id/l2"
+            android:layout_alignStart="@+id/lunchBtn2"
+            android:layout_alignLeft="@+id/lunchBtn2"
+            android:layout_alignTop="@+id/lunchBtn2"
+            android:layout_alignEnd="@+id/lunchBtn2"
+            android:layout_alignRight="@+id/lunchBtn2"
+            android:layout_alignBottom="@+id/lunchBtn2"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -119,7 +119,7 @@
             app:srcCompat="@drawable/l2" />
 
         <Button
-            android:id="@+id/l2"
+            android:id="@+id/lunchBtn2"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
@@ -161,12 +161,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/l3"
-            android:layout_alignLeft="@+id/l3"
-            android:layout_alignTop="@+id/l3"
-            android:layout_alignEnd="@+id/l3"
-            android:layout_alignRight="@+id/l3"
-            android:layout_alignBottom="@+id/l3"
+            android:layout_alignStart="@+id/lunchBtn3"
+            android:layout_alignLeft="@+id/lunchBtn3"
+            android:layout_alignTop="@+id/lunchBtn3"
+            android:layout_alignEnd="@+id/lunchBtn3"
+            android:layout_alignRight="@+id/lunchBtn3"
+            android:layout_alignBottom="@+id/lunchBtn3"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -176,7 +176,7 @@
             app:srcCompat="@drawable/l3" />
 
         <Button
-            android:id="@+id/l3"
+            android:id="@+id/lunchBtn3"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
@@ -218,12 +218,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/l4"
-            android:layout_alignLeft="@+id/l4"
-            android:layout_alignTop="@+id/l4"
-            android:layout_alignEnd="@+id/l4"
-            android:layout_alignRight="@+id/l4"
-            android:layout_alignBottom="@+id/l4"
+            android:layout_alignStart="@+id/lunchBtn4"
+            android:layout_alignLeft="@+id/lunchBtn4"
+            android:layout_alignTop="@+id/lunchBtn4"
+            android:layout_alignEnd="@+id/lunchBtn4"
+            android:layout_alignRight="@+id/lunchBtn4"
+            android:layout_alignBottom="@+id/lunchBtn4"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -233,7 +233,7 @@
             app:srcCompat="@drawable/l4" />
 
         <Button
-            android:id="@+id/l4"
+            android:id="@+id/lunchBtn4"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"
@@ -277,12 +277,12 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_alignStart="@+id/l5"
-            android:layout_alignLeft="@+id/l5"
-            android:layout_alignTop="@+id/l5"
-            android:layout_alignEnd="@+id/l5"
-            android:layout_alignRight="@+id/l5"
-            android:layout_alignBottom="@+id/l5"
+            android:layout_alignStart="@+id/lunchBtn5"
+            android:layout_alignLeft="@+id/lunchBtn5"
+            android:layout_alignTop="@+id/lunchBtn5"
+            android:layout_alignEnd="@+id/lunchBtn5"
+            android:layout_alignRight="@+id/lunchBtn5"
+            android:layout_alignBottom="@+id/lunchBtn5"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -292,7 +292,7 @@
             app:srcCompat="@drawable/l5" />
 
         <Button
-            android:id="@+id/l5"
+            android:id="@+id/lunchBtn5"
             android:layout_width="200dp"
             android:layout_height="150dp"
             android:gravity="bottom|center_horizontal"

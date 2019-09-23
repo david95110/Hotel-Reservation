@@ -7,9 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class LunchActivity extends AppCompatActivity {
+
+    private Button L1;
+    private Button L2;
+    private Button L3;
+    private Button L4;
+    private Button L5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,5 +49,50 @@ public class LunchActivity extends AppCompatActivity {
             }
         });
 
+        L1 = (Button)findViewById(R.id.breakfastBtn1);
+        L1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetLunch();
+            }
+        });
+
+        L2 = (Button)findViewById(R.id.breakfastBtn2);
+        L2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetLunch();
+            }
+        });
+
+        L3 = (Button)findViewById(R.id.breakfastBtn3);
+        L3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetLunch();
+            }
+        });
+
+        L4 = (Button)findViewById(R.id.breakfastBtn4);
+        L4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetLunch();
+            }
+        });
+
+        L5 = (Button)findViewById(R.id.breakfastBtn4);
+        L5.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openGetLunch();
+            }
+        });
+
+    }
+
+    public void openGetLunch(){
+        Intent intent = new Intent(this,GetLunchActivity.class);
+        startActivity(intent);
     }
 }

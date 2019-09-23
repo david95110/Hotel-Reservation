@@ -35,4 +35,26 @@
         <item>TEA TIME</item>
     </string-array>
 
+    <string name="app_name_menuBreak">Hotel Reservation</string>
+
+    <string-array name="menuBreak">
+        <item></item>
+        <item>Sandwich with Tea</item>
+        <item>Pancake with Juice</item>
+        <item>Pasta</item>
+        <item>Traditional</item>
+    </string-array>
+
+    <string name="app_name_menuLunch">Hotel Reservation</string>
+
+    <string-array name="menuLunch">
+        <item></item>
+        <item>Traditional</item>
+        <item>Sea Food and Paul Rice</item>
+        <item>Biriyani</item>
+        <item>Salads</item>
+        <item>Dessert</item>
+    </string-array>
+
+
 </resources>

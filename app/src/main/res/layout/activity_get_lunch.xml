@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GetMenuActivity"
+    tools:context=".GetLunchActivity"
     android:background="@drawable/loginbck">
 
     <TextView
@@ -33,7 +33,7 @@
         android:layout_marginTop="140dp"/>
 
     <EditText
-        android:id="@+id/roomNumber1"
+        android:id="@+id/roomNumber"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
@@ -47,7 +47,7 @@
         android:textColor="@android:color/black"
         />
     <EditText
-        android:id="@+id/phoneNum1"
+        android:id="@+id/phoneNum"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
@@ -62,7 +62,7 @@
         />
 
     <EditText
-        android:id="@+id/cusName1"
+        android:id="@+id/cusName"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -76,18 +76,10 @@
         />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinner22"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="400dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/ecittxt_login"/>
-
-    <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="450dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/ecittxt_login"/>
 
