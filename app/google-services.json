@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "804026647956",
+    "firebase_url": "https://main-land-hotel.firebaseio.com",
+    "project_id": "main-land-hotel",
+    "storage_bucket": "main-land-hotel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804026647956:android:99cd7248b2ff45217a7b81",
+        "android_client_info": {
+          "package_name": "com.example.hotelreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804026647956-3bhlnc55cdvd9huj8f10n3livth5ei7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAexYqyiF81MpAIYfd7cQyzobUYNLQIyws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804026647956-3bhlnc55cdvd9huj8f10n3livth5ei7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
