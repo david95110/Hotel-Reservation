@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -42,6 +43,236 @@
             android:layout_height="50dp"
             android:layout_marginTop="140dp"
             android:layout_marginLeft="19dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/dinnerBtn1"
+            android:layout_alignLeft="@+id/dinnerBtn1"
+            android:layout_alignTop="@+id/dinnerBtn1"
+            android:layout_alignEnd="@+id/dinnerBtn1"
+            android:layout_alignRight="@+id/dinnerBtn1"
+            android:layout_alignBottom="@+id/dinnerBtn1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/d1" />
+
+        <Button
+            android:id="@+id/dinnerBtn1"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu"
+
+
+            />
+
+        <TextView
+            android:id="@+id/b41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasta"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="19dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Chocolate
+                            * Vanilla
+                                * Fruit
+                                    * Coconut
+                                             * 800 per person"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="240dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/dinnerBtn2"
+            android:layout_alignLeft="@+id/dinnerBtn2"
+            android:layout_alignTop="@+id/dinnerBtn2"
+            android:layout_alignEnd="@+id/dinnerBtn2"
+            android:layout_alignRight="@+id/dinnerBtn2"
+            android:layout_alignBottom="@+id/dinnerBtn2"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/t2" />
+
+        <Button
+            android:id="@+id/dinnerBtn2"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu"
+            />
+
+        <TextView
+            android:id="@+id/b21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burger"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="19dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Chicken Burger
+                            * Fish Burger
+                                * Mutton Burger
+                                    * Spicy Burger
+                                         * 1200 per person"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="240dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/dinnerBtn3"
+            android:layout_alignLeft="@+id/dinnerBtn3"
+            android:layout_alignTop="@+id/dinnerBtn3"
+            android:layout_alignEnd="@+id/dinnerBtn3"
+            android:layout_alignRight="@+id/dinnerBtn3"
+            android:layout_alignBottom="@+id/dinnerBtn3"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/t3" />
+
+        <Button
+            android:id="@+id/dinnerBtn3"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="720dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu"
+            />
+
+        <TextView
+            android:id="@+id/b31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:layout_marginTop="680dp"
+            android:layout_marginLeft="19dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Chilly Pizza
+                            * Chicken Pizza
+                                * Spicy Pizza
+                                    * Cheese Pizza
+                                        * White-sauce Pizza
+                                            * 1500 per person"
+            android:layout_marginTop="740dp"
+            android:layout_marginLeft="240dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/lunchBtn4"
+            android:layout_alignLeft="@+id/lunchBtn4"
+            android:layout_alignTop="@+id/lunchBtn4"
+            android:layout_alignEnd="@+id/lunchBtn4"
+            android:layout_alignRight="@+id/lunchBtn4"
+            android:layout_alignBottom="@+id/lunchBtn4"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/l2" />
+
+        <Button
+            android:id="@+id/lunchBtn4"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="950dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu"
+
+
+            />
+
+        <TextView
+            android:id="@+id/d41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sea Food Paul Rice"
+            android:layout_marginTop="900dp"
+            android:layout_marginLeft="19dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Prawn Rice
+                            * CuttleFish Rice
+                                * Mix sea food Rice
+                                    * Cheese Prawn Rice
+                                        * Chile mix Rice
+                                            * 2500 per person"
+            android:layout_marginTop="960dp"
+            android:layout_marginLeft="240dp"
+            android:textStyle=""
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
 
     </RelativeLayout>
 

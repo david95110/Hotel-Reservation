@@ -56,7 +56,7 @@ public class RestaurantActivity extends AppCompatActivity {
                 }
             });
 
-        B2 = (Button)findViewById(R.id.breakfastBtn2);
+        B2 = (Button)findViewById(R.id.dinnerBtn2);
         B2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -64,7 +64,7 @@ public class RestaurantActivity extends AppCompatActivity {
             }
         });
 
-        B3 = (Button)findViewById(R.id.breakfastBtn3);
+        B3 = (Button)findViewById(R.id.dinnerBtn3);
         B3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {

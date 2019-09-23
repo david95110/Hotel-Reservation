@@ -49,7 +49,7 @@ public class LunchActivity extends AppCompatActivity {
             }
         });
 
-        L1 = (Button)findViewById(R.id.breakfastBtn1);
+        L1 = (Button)findViewById(R.id.lunchBtn1);
         L1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -57,7 +57,7 @@ public class LunchActivity extends AppCompatActivity {
             }
         });
 
-        L2 = (Button)findViewById(R.id.breakfastBtn2);
+        L2 = (Button)findViewById(R.id.lunchBtn2);
         L2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -65,7 +65,7 @@ public class LunchActivity extends AppCompatActivity {
             }
         });
 
-        L3 = (Button)findViewById(R.id.breakfastBtn3);
+        L3 = (Button)findViewById(R.id.lunchBtn3);
         L3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -73,7 +73,7 @@ public class LunchActivity extends AppCompatActivity {
             }
         });
 
-        L4 = (Button)findViewById(R.id.breakfastBtn4);
+        L4 = (Button)findViewById(R.id.lunchBtn4);
         L4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -81,7 +81,7 @@ public class LunchActivity extends AppCompatActivity {
             }
         });
 
-        L5 = (Button)findViewById(R.id.breakfastBtn4);
+        L5 = (Button)findViewById(R.id.lunchBtn5);
         L5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
