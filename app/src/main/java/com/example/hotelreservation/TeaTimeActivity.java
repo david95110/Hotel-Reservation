@@ -8,13 +8,17 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class TeaTimeActivity extends AppCompatActivity {
 
     private Button T1;
-    private Button T2;
-    private Button T3;
+    private CheckBox check1;
+    private CheckBox check2;
+    private CheckBox check3;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +51,64 @@ public class TeaTimeActivity extends AppCompatActivity {
             }
         });
 
-        T1 = (Button)findViewById(R.id.dinnerBtn1);
+        Spinner mySpinner1 = findViewById(R.id.spinnerCake);
+
+        ArrayAdapter<String> myAdapter1 = new ArrayAdapter<>(TeaTimeActivity.this,
+                R.layout.menu, getResources().getStringArray(R.array.menuCake));
+
+        myAdapter1.setDropDownViewResource(R.layout.menu);
+        mySpinner1.setAdapter(myAdapter1);
+
+        check1 = (CheckBox) findViewById(R.id.checkBox1);
+        check1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(check1.isChecked()){
+                    Toast.makeText(getApplicationContext(),"Checked",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
+        Spinner mySpinner2 = findViewById(R.id.spinnerBurger);
+
+        ArrayAdapter<String> myAdapter2 = new ArrayAdapter<>(TeaTimeActivity.this,
+                R.layout.menu, getResources().getStringArray(R.array.menuBurger));
+
+        myAdapter2.setDropDownViewResource(R.layout.menu);
+        mySpinner2.setAdapter(myAdapter1);
+
+        check2 = (CheckBox) findViewById(R.id.checkBox2);
+        check2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(check1.isChecked()){
+                    Toast.makeText(getApplicationContext(),"Checked",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
+        Spinner mySpinner3 = findViewById(R.id.spinnerPizza);
+
+        ArrayAdapter<String> myAdapter3 = new ArrayAdapter<>(TeaTimeActivity.this,
+                R.layout.menu, getResources().getStringArray(R.array.menuPizza));
+
+        myAdapter3.setDropDownViewResource(R.layout.menu);
+        mySpinner3.setAdapter(myAdapter1);
+
+        check3 = (CheckBox) findViewById(R.id.checkBox3);
+        check3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(check1.isChecked()){
+                    Toast.makeText(getApplicationContext(),"Checked",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
+        T1 = (Button)findViewById(R.id.teaBtn1);
         T1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -55,21 +116,6 @@ public class TeaTimeActivity extends AppCompatActivity {
             }
         });
 
-        T2 = (Button)findViewById(R.id.dinnerBtn2);
-        T2.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                openGetTea();
-            }
-        });
-
-        T3 = (Button)findViewById(R.id.dinnerBtn3);
-        T3.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                openGetTea();
-            }
-        });
 
     }
 

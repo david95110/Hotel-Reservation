@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:layout_centerHorizontal="true"
         android:text="MianLand Hotel"
         android:textSize="30sp"
@@ -30,14 +30,14 @@
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp"/>
+        android:layout_marginTop="190dp"/>
 
     <EditText
-        android:id="@+id/roomNumber1"
+        android:id="@+id/roomNumberBreakfast"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/ecittxt_login"
         android:ems="10"
         android:hint="Room Number"
@@ -47,11 +47,11 @@
         android:textColor="@android:color/black"
         />
     <EditText
-        android:id="@+id/phoneNum1"
+        android:id="@+id/phoneNumBreakfast"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="350dp"
         android:background="@drawable/ecittxt_login"
         android:ems="10"
         android:hint="Phone Number"
@@ -62,7 +62,7 @@
         />
 
     <EditText
-        android:id="@+id/cusName1"
+        android:id="@+id/cusNameBreakfast"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -71,17 +71,25 @@
         android:inputType="textPersonName"
         android:text=""
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/ecittxt_login"
         />
 
-    <Spinner
-        android:id="@+id/spinner2"
+    <EditText
+        android:id="@+id/howManayBreakfast"
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:hint="How many"
+        android:gravity="center"
+        android:inputType="number"
+        android:text=""
         android:layout_centerHorizontal="true"
-        android:background="@drawable/ecittxt_login"/>
+        android:layout_marginTop="450dp"
+        android:background="@drawable/ecittxt_login"
+        />
+
+
 
 
 

@@ -44,32 +44,28 @@
             android:layout_marginLeft="19dp"/>
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_alignStart="@+id/lunchBtn1"
-            android:layout_alignLeft="@+id/lunchBtn1"
-            android:layout_alignTop="@+id/lunchBtn1"
-            android:layout_alignEnd="@+id/lunchBtn1"
-            android:layout_alignRight="@+id/lunchBtn1"
-            android:layout_alignBottom="@+id/lunchBtn1"
-            android:layout_marginStart="10dp"
+            android:id="@+id/pancake"
+            android:layout_width="180dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="230dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/l1"  />
-
-        <Button
-            android:id="@+id/lunchBtn1"
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:gravity="bottom|center_horizontal"
-            android:paddingBottom="10dp"
+            app:srcCompat="@drawable/l1"/>
+        <Spinner
+            android:id="@+id/spinnerLunch"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
             android:layout_marginTop="260dp"
-            android:layout_marginLeft="10dp"
-            android:background="@drawable/menu"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/button"/>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="200dp"
             />
+
 
         <TextView
             android:id="@+id/l11"
@@ -90,11 +86,9 @@
             android:text="* Village Curries
                             * NelumKole Curries
                                 * Malu Abulthiyal
-                                    * Roast Chicken
                                         * Chicken N Curry
-                                            * Fish N Curry
                                                 * 1500 per person"
-            android:layout_marginTop="255dp"
+            android:layout_marginTop="310dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
             android:fontFamily="sans-serif-condensed"
@@ -102,32 +96,29 @@
             android:textColor="#000000"/>
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_alignStart="@+id/lunchBtn2"
-            android:layout_alignLeft="@+id/lunchBtn2"
-            android:layout_alignTop="@+id/lunchBtn2"
-            android:layout_alignEnd="@+id/lunchBtn2"
-            android:layout_alignRight="@+id/lunchBtn2"
-            android:layout_alignBottom="@+id/lunchBtn2"
-            android:layout_marginStart="10dp"
+            android:id="@+id/sea"
+            android:layout_width="180dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="450dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/l2" />
+            app:srcCompat="@drawable/l2"/>
 
-        <Button
-            android:id="@+id/lunchBtn2"
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:gravity="bottom|center_horizontal"
-            android:paddingBottom="10dp"
+        <Spinner
+            android:id="@+id/spinnerSea"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
             android:layout_marginTop="490dp"
-            android:layout_marginLeft="10dp"
-            android:background="@drawable/menu"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/button"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="200dp"
             />
+
 
         <TextView
             android:id="@+id/l21"
@@ -149,9 +140,8 @@
                             * CuttleFish Rice
                                 * Mix sea food Rice
                                     * Cheese Prawn Rice
-                                        * Chile mix Rice
                                             * 2500 per person"
-            android:layout_marginTop="480dp"
+            android:layout_marginTop="540dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
             android:fontFamily="sans-serif-condensed"
@@ -159,32 +149,29 @@
             android:textColor="#000000"/>
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_alignStart="@+id/lunchBtn3"
-            android:layout_alignLeft="@+id/lunchBtn3"
-            android:layout_alignTop="@+id/lunchBtn3"
-            android:layout_alignEnd="@+id/lunchBtn3"
-            android:layout_alignRight="@+id/lunchBtn3"
-            android:layout_alignBottom="@+id/lunchBtn3"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/l3" />
-
-        <Button
-            android:id="@+id/lunchBtn3"
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:gravity="bottom|center_horizontal"
-            android:paddingBottom="10dp"
+            android:id="@+id/biriyani"
+            android:layout_width="180dp"
+            android:layout_height="230dp"
             android:layout_marginTop="720dp"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/menu"
+            app:srcCompat="@drawable/l3"/>
+
+        <Spinner
+            android:id="@+id/spinnerBiriyani"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="720dp"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/button"/>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:layout_marginLeft="200dp"
             />
+
 
         <TextView
             android:id="@+id/l31"
@@ -206,9 +193,8 @@
                             * Chile Biriyani
                                 * Special Biriyani
                                     * Cheese Chicken
-                                        * White chicken
                                             * 2500 per person"
-            android:layout_marginTop="740dp"
+            android:layout_marginTop="780dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
             android:fontFamily="sans-serif-condensed"
@@ -216,33 +202,27 @@
             android:textColor="#000000"/>
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_alignStart="@+id/dinnerBtn4"
-            android:layout_alignLeft="@+id/dinnerBtn4"
-            android:layout_alignTop="@+id/dinnerBtn4"
-            android:layout_alignEnd="@+id/dinnerBtn4"
-            android:layout_alignRight="@+id/dinnerBtn4"
-            android:layout_alignBottom="@+id/dinnerBtn4"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/l4" />
-
-        <Button
-            android:id="@+id/dinnerBtn4"
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:gravity="bottom|center_horizontal"
-            android:paddingBottom="10dp"
+            android:id="@+id/traditional"
+            android:layout_width="180dp"
+            android:layout_height="230dp"
             android:layout_marginTop="950dp"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/menu"
+            app:srcCompat="@drawable/l4"/>
 
+        <Spinner
+            android:id="@+id/spinnerSalads"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="980dp"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/button"/>
 
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="940dp"
+            android:layout_marginLeft="200dp"
             />
 
         <TextView
@@ -250,7 +230,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Salads"
-            android:layout_marginTop="900dp"
+            android:layout_marginTop="940dp"
             android:layout_marginLeft="19dp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
@@ -264,10 +244,9 @@
             android:text="* Traditional salads
                             * Cheese Salads
                                 * Spicy Salads
-                                    * Onion Salads
                                         * Mix Salads
                                              * 700 per person"
-            android:layout_marginTop="960dp"
+            android:layout_marginTop="1020dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
             android:fontFamily="sans-serif-condensed"
@@ -275,33 +254,27 @@
             android:textColor="#000000"/>
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_alignStart="@+id/lunchBtn5"
-            android:layout_alignLeft="@+id/lunchBtn5"
-            android:layout_alignTop="@+id/lunchBtn5"
-            android:layout_alignEnd="@+id/lunchBtn5"
-            android:layout_alignRight="@+id/lunchBtn5"
-            android:layout_alignBottom="@+id/lunchBtn5"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/l5" />
-
-        <Button
-            android:id="@+id/lunchBtn5"
-            android:layout_width="200dp"
-            android:layout_height="150dp"
-            android:gravity="bottom|center_horizontal"
-            android:paddingBottom="10dp"
+            android:id="@+id/dessert"
+            android:layout_width="180dp"
+            android:layout_height="230dp"
             android:layout_marginTop="1160dp"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/menu"
+            app:srcCompat="@drawable/l5"/>
 
+        <Spinner
+            android:id="@+id/spinnerDessert"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1195dp"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/button"/>
 
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1160dp"
+            android:layout_marginLeft="200dp"
             />
 
         <TextView
@@ -309,7 +282,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dessert"
-            android:layout_marginTop="1130dp"
+            android:layout_marginTop="1150dp"
             android:layout_marginLeft="19dp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
@@ -320,23 +293,32 @@
             android:id="@+id/lt5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="* Chocolate
-                            * Chocolate Pudding
+            android:text="* Chocolate Pudding
                                 * Ice cream
                                     * Chocolate cream
                                         * Fruits
                                              * 1180 per person"
-            android:layout_marginTop="1180dp"
+            android:layout_marginTop="1250dp"
             android:layout_marginLeft="240dp"
             android:textStyle=""
             android:fontFamily="sans-serif-condensed"
             android:textSize="19dp"
             android:textColor="#000000"/>
+        <Button
+            android:id="@+id/lunchBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="1380dp"
+            android:text="Next"
+            android:background="@drawable/menu"
+            />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="25sp"
-            android:layout_marginTop="1350dp"/>
+            android:layout_marginTop="1430dp"/>
 
     </RelativeLayout>
 

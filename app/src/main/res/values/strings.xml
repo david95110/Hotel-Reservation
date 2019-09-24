@@ -35,46 +35,124 @@
         <item>TEA TIME</item>
     </string-array>
 
-    <string name="app_name_menuBreak">Hotel Reservation</string>
+    <string name="app_name_menuSandwich">Hotel Reservation</string>
 
-    <string-array name="menuBreak">
+    <string-array name="menuSandwich">
         <item></item>
-        <item>Sandwich with Tea</item>
-        <item>Pancake with Juice</item>
-        <item>Pasta</item>
-        <item>Traditional</item>
+        <item>Omelet Sandwich</item>
+        <item>Crunchy Sandwich</item>
+        <item>Cheese Sandwich</item>
+        <item>Chicken Sandwich</item>
+    </string-array>
+
+    <string name="app_name_menuPancake">Hotel Reservation</string>
+
+    <string-array name="menuPancake">
+        <item></item>
+        <item>Brown Pancake</item>
+        <item>Strawberry Pancake</item>
+        <item>Cheese Pancake</item>
+        <item>Vanilla Pancake</item>
+    </string-array>
+
+
+    <string name="app_name_menuPasta">Hotel Reservation</string>
+
+    <string-array name="menuPasta">
+        <item></item>
+        <item>Chilly Pasta</item>
+        <item>Chicken Pasta</item>
+        <item>Fish Pasta</item>
+        <item>Cheese Pasta</item>
+    </string-array>
+
+    <string name="app_name_menuTaraditional">Hotel Reservation</string>
+
+    <string-array name="menuTaraditional">
+        <item></item>
+        <item>Milk Rice</item>
+        <item>String Hoppers</item>
+        <item>Rice and Curry</item>
+        <item>Pittu</item>
     </string-array>
 
     <string name="app_name_menuLunch">Hotel Reservation</string>
 
     <string-array name="menuLunch">
         <item></item>
-        <item>Traditional</item>
-        <item>Sea Food and Paul Rice</item>
-        <item>Biriyani</item>
-        <item>Salads</item>
-        <item>Dessert</item>
+        <item>Village Curries</item>
+        <item>NelumKole Curries</item>
+        <item>Malu Abulthiyal</item>
+        <item>Chicken N Curry</item>
     </string-array>
 
+    <string name="app_name_menuSea">Hotel Reservation</string>
 
-    <string name="app_name_menuTea">Hotel Reservation</string>
-
-    <string-array name="menuTea">
+    <string-array name="menuSea">
         <item></item>
-        <item>Cakes</item>
-        <item>Burger</item>
-        <item>Pizza</item>
+        <item>Prawn Rice</item>
+        <item>CuttleFish Rice</item>
+        <item>Mix sea food Rice</item>
+        <item>Cheese Prawn Rice</item>
     </string-array>
 
-    <string name="app_name_menuDinner">Hotel Reservation</string>
+    <string name="app_name_menuBiriyani">Hotel Reservation</string>
 
-    <string-array name="menuDinner">
-        <item></item>
-        <item>Pasta</item>
-        <item>Burger</item>
-        <item>Pizza</item>
-        <item>Sea Food and Paul Rice</item>
+    <string-array name="menuBiriyani">
+        <item>Chicken Biriyani</item>
+        <item>Special Biriyani</item>
+        <item>Chile Biriyani</item>
+        <item>Cheese Chicken</item>
     </string-array>
+    <string name="app_name_menSalads">Hotel Reservation</string>
+
+    <string-array name="menSalads">
+        <item>Traditional salads</item>
+        <item>Cheese Salads</item>
+        <item>Spicy Salads</item>
+        <item>Mix Salads</item>
+    </string-array>
+
+    <string name="app_name_menuDessert">Hotel Reservation</string>
+
+    <string-array name="menuDessert">
+        <item>Chocolate Pudding</item>
+        <item>Ice cream</item>
+        <item>Chocolate cream</item>
+        <item> Fruits</item>
+
+    </string-array>
+
+
+    <string name="app_name_menuCake">Hotel Reservation</string>
+
+    <string-array name="menuCake">
+        <item>Chocolate</item>
+        <item>Vanilla</item>
+        <item>Fruit</item>
+        <item>Coconut</item>
+    </string-array>
+
+
+    <string name="app_name_menuBurger">Hotel Reservation</string>
+
+    <string-array name="menuBurger">
+        <item>Chicken Burger</item>
+        <item>Fish Burger</item>
+        <item>Mutton Burger</item>
+        <item>Spicy Burger</item>
+    </string-array>
+
+
+    <string name="app_name_menuPizza">Hotel Reservation</string>
+
+    <string-array name="menuPizza">
+        <item>Chilly Pizza</item>
+        <item>Chicken Pizza</item>
+        <item>Spicy Pizza</item>
+        <item>Cheese Pizza</item>
+    </string-array>
+
 
 
 </resources>

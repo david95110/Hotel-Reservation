@@ -8,14 +8,17 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class RestaurantActivity extends AppCompatActivity {
 
     private Button B1;
-    private Button B2;
-    private Button B3;
-    private Button B4;
+    private CheckBox check1;
+    private CheckBox check2;
+    private CheckBox check3;
+    private CheckBox check4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,7 @@ public class RestaurantActivity extends AppCompatActivity {
 
         myAdapter.setDropDownViewResource(R.layout.spinner);
         mySpinner.setAdapter(myAdapter);
+
 
         mySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -48,6 +52,82 @@ public class RestaurantActivity extends AppCompatActivity {
             }
         });
 
+        Spinner mySpinner1 = findViewById(R.id.spinnerSandwich);
+
+        ArrayAdapter<String> myAdapter1 = new ArrayAdapter<>(RestaurantActivity.this,
+                R.layout.menu, getResources().getStringArray(R.array.menuSandwich));
+
+        myAdapter1.setDropDownViewResource(R.layout.menu);
+        mySpinner1.setAdapter(myAdapter1);
+
+        check1 = (CheckBox) findViewById(R.id.checkBox1);
+        check1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(check1.isChecked()){
+                    Toast.makeText(getApplicationContext(),"Checked",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
+        Spinner mySpinner2 = findViewById(R.id.spinnerPancake);
+
+        ArrayAdapter<String> myAdapter2 = new ArrayAdapter<>(RestaurantActivity.this,
+                R.layout.menu, getResources().getStringArray(R.array.menuPancake));
+
+        myAdapter2.setDropDownViewResource(R.layout.menu);
+        mySpinner2.setAdapter(myAdapter1);
+
+        check2 = (CheckBox) findViewById(R.id.checkBox2);
+        check2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(check1.isChecked()){
+                    Toast.makeText(getApplicationContext(),"Checked",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
+        Spinner mySpinner3 = findViewById(R.id.spinnerPasta);
+
+        ArrayAdapter<String> myAdapter3 = new ArrayAdapter<>(RestaurantActivity.this,
+                R.layout.menu, getResources().getStringArray(R.array.menuPasta));
+
+        myAdapter3.setDropDownViewResource(R.layout.menu);
+        mySpinner3.setAdapter(myAdapter1);
+
+        check3 = (CheckBox) findViewById(R.id.checkBox3);
+        check3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(check1.isChecked()){
+                    Toast.makeText(getApplicationContext(),"Checked",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
+        Spinner mySpinner4 = findViewById(R.id.spinnerTraditional);
+
+        ArrayAdapter<String> myAdapter4 = new ArrayAdapter<>(RestaurantActivity.this,
+                R.layout.menu, getResources().getStringArray(R.array.menuTaraditional));
+
+        myAdapter4.setDropDownViewResource(R.layout.menu);
+        mySpinner4.setAdapter(myAdapter1);
+
+        check4 = (CheckBox) findViewById(R.id.checkBox4);
+        check4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(check1.isChecked()){
+                    Toast.makeText(getApplicationContext(),"Checked",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
 
         B1 = (Button)findViewById(R.id.breakfastBtn1);
         B1.setOnClickListener(new View.OnClickListener(){
@@ -57,34 +137,12 @@ public class RestaurantActivity extends AppCompatActivity {
             }
         });
 
-        B2 = (Button)findViewById(R.id.dinnerBtn2);
-        B2.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                openGetmenu();
-            }
-        });
-
-        B3 = (Button)findViewById(R.id.dinnerBtn3);
-        B3.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                openGetmenu();
-            }
-        });
-
-        B4 = (Button)findViewById(R.id.breakfastBtn4);
-        B4.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                openGetmenu();
-            }
-        });
     }
 
     public void openGetmenu(){
         Intent intent = new Intent(this,GetMenuActivity.class);
         startActivity(intent);
+
     }
 
 }

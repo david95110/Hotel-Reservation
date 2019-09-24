@@ -16,15 +16,6 @@ public class GetMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_menu);
 
-        Spinner mySpinner = findViewById(R.id.spinner2);
-
-        ArrayAdapter<String> myAdapter = new ArrayAdapter<>(GetMenuActivity.this,
-                R.layout.menu, getResources().getStringArray(R.array.menuBreak));
-
-        myAdapter.setDropDownViewResource(R.layout.menu);
-        mySpinner.setAdapter(myAdapter);
-
-
 
     }
 }
