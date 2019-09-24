@@ -89,6 +89,27 @@
         android:background="@drawable/ecittxt_login"
         />
 
+    <EditText
+        android:id="@+id/editTimeBreakfast"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="Time"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/ecittxt_login"/>
+
+    <Button
+        android:id="@+id/confirmBtnBreakfast"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/button"/>
+
 
 
 

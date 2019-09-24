@@ -21,7 +21,7 @@
         />
 
     <EditText
-        android:id="@+id/roomNumber"
+        android:id="@+id/roomNumberActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
@@ -35,7 +35,7 @@
         android:textColor="@android:color/black"
         />
     <EditText
-        android:id="@+id/phoneNum"
+        android:id="@+id/phoneNumActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
@@ -50,7 +50,7 @@
         />
 
     <EditText
-        android:id="@+id/cusName"
+        android:id="@+id/cusNameActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -64,7 +64,7 @@
         />
 
     <EditText
-        android:id="@+id/cusSer"
+        android:id="@+id/Activity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -79,7 +79,7 @@
 
 
     <Button
-        android:id="@+id/loginBtn"
+        android:id="@+id/confirmBtnActivity"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:text="Confirm"
@@ -100,7 +100,7 @@
         android:layout_marginTop="160dp"/>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/timeActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
