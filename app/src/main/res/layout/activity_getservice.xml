@@ -63,19 +63,14 @@
         android:background="@drawable/ecittxt_login"
         />
 
-    <EditText
-        android:id="@+id/service"
+    <Spinner
+        android:id="@+id/spinnerService"
         android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:hint="Service Type"
         android:gravity="center"
-        android:inputType="textPersonName"
-        android:text=""
-        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
         android:layout_marginTop="385dp"
-        android:background="@drawable/ecittxt_login"
-        />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ecittxt_login"/>
 
 
     <Button

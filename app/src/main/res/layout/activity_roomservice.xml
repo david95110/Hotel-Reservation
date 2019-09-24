@@ -162,17 +162,17 @@
             android:id="@+id/dup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="660dp"
+            android:fontFamily="sans-serif-condensed"
             android:text="* Available 10 am - 11pm
                             * Make him smile,comfotable
                                 and healthy
                                     * Play ,Teach and Care
                                         * Trusted service"
-            android:layout_marginTop="660dp"
-            android:layout_marginLeft="180dp"
-            android:textStyle=""
-            android:fontFamily="sans-serif-condensed"
+            android:textColor="#000000"
             android:textSize="19dp"
-            android:textColor="#000000"/>
+            android:textStyle="" />
 
         <TextView
             android:id="@+id/dup4"

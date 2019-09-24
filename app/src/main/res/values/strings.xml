@@ -99,6 +99,7 @@
     <string name="app_name_menuBiriyani">Hotel Reservation</string>
 
     <string-array name="menuBiriyani">
+        <item></item>
         <item>Chicken Biriyani</item>
         <item>Special Biriyani</item>
         <item>Chile Biriyani</item>
@@ -107,6 +108,7 @@
     <string name="app_name_menSalads">Hotel Reservation</string>
 
     <string-array name="menSalads">
+        <item></item>
         <item>Traditional salads</item>
         <item>Cheese Salads</item>
         <item>Spicy Salads</item>
@@ -116,6 +118,7 @@
     <string name="app_name_menuDessert">Hotel Reservation</string>
 
     <string-array name="menuDessert">
+        <item></item>
         <item>Chocolate Pudding</item>
         <item>Ice cream</item>
         <item>Chocolate cream</item>
@@ -127,6 +130,7 @@
     <string name="app_name_menuCake">Hotel Reservation</string>
 
     <string-array name="menuCake">
+        <item></item>
         <item>Chocolate</item>
         <item>Vanilla</item>
         <item>Fruit</item>
@@ -137,6 +141,7 @@
     <string name="app_name_menuBurger">Hotel Reservation</string>
 
     <string-array name="menuBurger">
+        <item></item>
         <item>Chicken Burger</item>
         <item>Fish Burger</item>
         <item>Mutton Burger</item>
@@ -147,12 +152,33 @@
     <string name="app_name_menuPizza">Hotel Reservation</string>
 
     <string-array name="menuPizza">
+        <item></item>
         <item>Chilly Pizza</item>
         <item>Chicken Pizza</item>
         <item>Spicy Pizza</item>
         <item>Cheese Pizza</item>
     </string-array>
 
+    <string name="app_name_service">Hotel Reservation</string>
+
+    <string-array name="service">
+        <item></item>
+        <item>Medical Service</item>
+        <item>Room Service</item>
+        <item>Baby Care</item>
+        <item>Library</item>
+        <item>Cinema</item>
+    </string-array>
+
+
+    <string name="app_name_activity">Hotel Reservation</string>
+
+    <string-array name="menuActivity">
+        <item></item>
+        <item>Fitness Center</item>
+        <item>Children Area</item>
+        <item>Pool</item>
+    </string-array>
 
 
 </resources>

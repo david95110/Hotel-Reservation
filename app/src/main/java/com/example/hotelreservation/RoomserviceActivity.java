@@ -9,21 +9,20 @@ import android.widget.Button;
 
 public class RoomserviceActivity extends AppCompatActivity {
 
-    private Button getservice;
+    private Button GetService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_roomservice);
 
-        getservice = (Button) findViewById(R.id.getServiceBtn);
-        getservice.setOnClickListener(new View.OnClickListener() {
+        GetService = (Button) findViewById(R.id.getServiceBtn);
+        GetService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openGetservice();
             }
         });
-
     }
 
     public void openGetservice(){

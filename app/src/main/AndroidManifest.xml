@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
-            android:name=".GetActivitiesActivity"
+            android:name=".ViewServiceActivity"
             android:theme="@style/DashBoardTheme"/>
+        <activity
+            android:name=".GetActivitiesActivity"
+            android:theme="@style/DashBoardTheme" />
         <activity
             android:name=".GetDinnerActivity"
             android:theme="@style/DashBoardTheme" />
