@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GetserviceActivity"
-    android:background="@drawable/loginbck">
+    tools:context=".ViewDetailsServiceActivity"
+    android:background="@drawable/confirm">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:layout_centerHorizontal="true"
         android:text="MianLand Hotel"
         android:textSize="30sp"
@@ -20,18 +20,29 @@
         android:textStyle="bold"
         />
 
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View your Details "
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
     <EditText
         android:id="@+id/roomNumberService"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/ecittxt_login"
         android:ems="10"
-        android:maxLength="4"
         android:hint="Room Number"
         android:gravity="center"
-        android:inputType="number"
+        android:inputType="textPersonName"
         android:text=""
         android:textColor="@android:color/black"
         />
@@ -40,10 +51,9 @@
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/ecittxt_login"
         android:ems="10"
-        android:maxLength="10"
         android:hint="Phone Number"
         android:gravity="center"
         android:inputType="number"
@@ -61,49 +71,23 @@
         android:inputType="textPersonName"
         android:text=""
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/ecittxt_login"
         />
 
-    <Spinner
-        android:id="@+id/spinnerService"
+    <EditText
+        android:id="@+id/serviceType"
         android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Service Type"
         android:gravity="center"
-        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="350dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/ecittxt_login"/>
-
-
-    <Button
-        android:id="@+id/confirmBtnService"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:text="Confirm"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="520dp"
-        android:background="@drawable/button"/>
-
-    <Button
-        android:id="@+id/viewBtnService"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:text="view"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="570dp"
-        android:background="@drawable/button"/>
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Get Our Service"
-        android:textSize="30dp"
-        android:fontFamily="sans-serif-condensed"
-        android:textColor="@android:color/black"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="130dp"/>
+        android:background="@drawable/ecittxt_login"
+        />
 
     <EditText
         android:id="@+id/editTimeService"
@@ -114,13 +98,44 @@
         android:hint="Time"
         android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/ecittxt_login"/>
+
+
+
+    <Button
+        android:id="@+id/confirmBtnService"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/button"/>
+
+
+    <Button
+        android:id="@+id/updateBtnService"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Update"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/deleteBtnService"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Update"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/button"/>
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="25sp"
-        android:layout_marginTop="680dp"/>
+        android:layout_marginTop="660dp"/>
+
 
 
 </RelativeLayout>

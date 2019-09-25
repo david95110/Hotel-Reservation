@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewServiceActivity"
+    tools:context=".ViewDetailsFitnessActivity"
     android:background="@drawable/confirm">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:layout_centerHorizontal="true"
         android:text="MianLand Hotel"
         android:textSize="30sp"
@@ -30,14 +30,14 @@
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp"/>
+        android:layout_marginTop="100dp"/>
 
     <EditText
-        android:id="@+id/roomNumberService"
+        android:id="@+id/roomNumberActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/ecittxt_login"
         android:ems="10"
         android:hint="Room Number"
@@ -47,11 +47,11 @@
         android:textColor="@android:color/black"
         />
     <EditText
-        android:id="@+id/phoneNumService"
+        android:id="@+id/phoneNumActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/ecittxt_login"
         android:ems="10"
         android:hint="Phone Number"
@@ -62,7 +62,7 @@
         />
 
     <EditText
-        android:id="@+id/cusNameService"
+        android:id="@+id/cusNameActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -71,16 +71,16 @@
         android:inputType="textPersonName"
         android:text=""
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/ecittxt_login"
         />
 
     <EditText
-        android:id="@+id/service"
+        android:id="@+id/activityType"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:hint="Service Type"
+        android:hint="Activity Type"
         android:gravity="center"
         android:inputType="textPersonName"
         android:text=""
@@ -90,7 +90,7 @@
         />
 
     <EditText
-        android:id="@+id/editTimeService"
+        android:id="@+id/editTimeActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -98,23 +98,32 @@
         android:hint="Time"
         android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/ecittxt_login"/>
 
 
 
     <Button
-        android:id="@+id/confirmBtnService"
+        android:id="@+id/confirmBtnActivity"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:text="Submit"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="470dp"
         android:background="@drawable/button"/>
 
 
     <Button
-        android:id="@+id/updateBtnService"
+        android:id="@+id/updateBtnActivity"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Update"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/deleteBtnActivity"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:text="Update"
@@ -122,15 +131,10 @@
         android:layout_marginTop="570dp"
         android:background="@drawable/button"/>
 
-    <Button
-        android:id="@+id/deleteBtnService"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:text="Update"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="620dp"
-        android:background="@drawable/button"/>
-
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:layout_marginTop="660dp"/>
 
 
 </RelativeLayout>

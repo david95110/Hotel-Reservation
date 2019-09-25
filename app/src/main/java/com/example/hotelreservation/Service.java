@@ -13,16 +13,14 @@ public class Service {
 
     }
 
-    public Service(String serviceId, String customerName, String roomNumber, String phoneNumber, String time, String spinnerser){
+    public Service(String serviceId, String customerName, String roomNumber, String phoneNumber, String time, String serviceType){
         this.serviceId=serviceId;
         this.customerName=customerName;
         this.roomNumber=roomNumber;
         this.phoneNumber=phoneNumber;
         this.time=time;
-        this.serviceType=spinnerser;
+        this.serviceType=serviceType;
     }
-
-
 
     public String getServiceId() {
         return serviceId;
@@ -64,11 +62,11 @@ public class Service {
         this.time = time;
     }
 
-    public String getSpinnerser() {
+    public String getServiceType() {
         return serviceType;
     }
 
-    public void setSpinnerser(String spinnerser) {
-        this.serviceType = spinnerser;
+    public void setServiceType(String serviceType) {
+        this.serviceType = serviceType;
     }
 }

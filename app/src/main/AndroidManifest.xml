@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
-            android:name=".ViewServiceActivity"
+            android:name=".ViewDetailsFitnessActivity"
             android:theme="@style/DashBoardTheme"/>
+        <activity
+            android:name=".ViewDetailsServiceActivity"
+            android:theme="@style/DashBoardTheme" />
         <activity
             android:name=".GetActivitiesActivity"
             android:theme="@style/DashBoardTheme" />
