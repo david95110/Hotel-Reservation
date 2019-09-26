@@ -35,6 +35,7 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
         name = (EditText) findViewById(R.id.cusNameService);
         service = (EditText) findViewById(R.id.serviceTypeValue);
         timeEdit = (EditText) findViewById(R.id.editTimeService);
+        showBtn = (Button) findViewById(R.id.showBtnService);
         editBtn = (Button) findViewById(R.id.updateBtnService);
         Button deleteBtn = (Button) findViewById(R.id.deleteBtnService);
 
@@ -53,7 +54,7 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
         editBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                database= FirebaseDatabase.getInstance().getReference().child("Service-Information").child("1");
+//              database= FirebaseDatabase.getInstance().getReference().child("Service-Information").child("1");
                 database.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -149,8 +150,7 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
-        }
-        );
+        });
     }
 
 

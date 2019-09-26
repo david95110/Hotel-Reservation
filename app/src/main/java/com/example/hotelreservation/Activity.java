@@ -3,22 +3,22 @@ package com.example.hotelreservation;
 public class Activity {
 
     private String serviceId;
-    private String customerName;
     private String roomNumber;
     private String phoneNumber;
-    private String time;
+    private String customerName;
     private String activity;
-
-    public Activity(String serviceId, String customerName, String roomNumber, String phoneNumber, String time, String activity) {
-        this.serviceId = serviceId;
-        this.customerName = customerName;
-        this.roomNumber = roomNumber;
-        this.phoneNumber = phoneNumber;
-        this.time = time;
-        this.activity = activity;
-    }
+    private String time;
 
     public Activity() {
+    }
+
+    public Activity(String serviceId, String roomNumber, String phoneNumber, String customerName, String activity, String time) {
+        this.serviceId = serviceId;
+        this.roomNumber = roomNumber;
+        this.phoneNumber = phoneNumber;
+        this.customerName = customerName;
+        this.activity = activity;
+        this.time = time;
     }
 
     public String getServiceId() {
@@ -27,14 +27,6 @@ public class Activity {
 
     public void setServiceId(String serviceId) {
         this.serviceId = serviceId;
-    }
-
-    public String getCustomerName() {
-        return customerName;
-    }
-
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
     }
 
     public String getRoomNumber() {
@@ -53,12 +45,12 @@ public class Activity {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getTime() {
-        return time;
+    public String getCustomerName() {
+        return customerName;
     }
 
-    public void setTime(String time) {
-        this.time = time;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
     public String getActivity() {
@@ -67,5 +59,13 @@ public class Activity {
 
     public void setActivity(String activity) {
         this.activity = activity;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
     }
 }

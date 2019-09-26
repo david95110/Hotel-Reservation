@@ -76,7 +76,7 @@
         />
 
     <EditText
-        android:id="@+id/activityType"
+        android:id="@+id/spinnerActivity"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -104,10 +104,10 @@
 
 
     <Button
-        android:id="@+id/confirmBtnActivity"
+        android:id="@+id/showBtnActivity"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:text="Submit"
+        android:text="show"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="470dp"
         android:background="@drawable/button"/>

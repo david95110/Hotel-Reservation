@@ -41,13 +41,6 @@ public class GetSpaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_spa);
 
-        viewBtn = (Button)findViewById(R.id.viewBtnSpa);
-        viewBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                openViewSpaDetails();
-            }
-        });
 
         Spinner mySpinner = findViewById(R.id.spinnerSpa);
 
@@ -68,6 +61,8 @@ public class GetSpaActivity extends AppCompatActivity {
 
         spaactivity= new Spa();
 
+        confirmBtn.setEnabled(false);
+
         databaseSpa.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -80,8 +75,6 @@ public class GetSpaActivity extends AppCompatActivity {
 
             }
         });
-
-        confirmBtn.setEnabled(false);
 
         confirmBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -118,6 +111,14 @@ public class GetSpaActivity extends AppCompatActivity {
         cusName.addTextChangedListener(spaTextWatcher);
         editTime.addTextChangedListener(spaTextWatcher);
 
+
+        viewBtn = (Button)findViewById(R.id.viewBtnSpa);
+        viewBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                openViewSpaDetails();
+            }
+        });
 
 
     }
