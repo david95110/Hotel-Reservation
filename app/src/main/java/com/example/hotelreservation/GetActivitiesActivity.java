@@ -58,7 +58,7 @@ public class GetActivitiesActivity extends AppCompatActivity   {
         editTime=(EditText)findViewById(R.id.timeActivity);
         confirmBtn=(Button) findViewById(R.id.confirmBtnActivity);
         activity1= new Activity();
-        databaseService = FirebaseDatabase.getInstance().getReference().child("Activity");
+        databaseService = FirebaseDatabase.getInstance().getReference().child("Activity-Information");
         databaseService.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -119,6 +119,7 @@ public class GetActivitiesActivity extends AppCompatActivity   {
     public void openViewActivityDetails(){
         Intent intent = new Intent(this, ViewDetailsFitnessActivity.class);
         startActivity(intent);
+
     }
 
     private TextWatcher activityTextWatcher = new TextWatcher() {

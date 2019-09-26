@@ -76,7 +76,7 @@
         />
 
     <EditText
-        android:id="@+id/serviceType"
+        android:id="@+id/serviceTypeValue"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -104,10 +104,10 @@
 
 
     <Button
-        android:id="@+id/confirmBtnService"
+        android:id="@+id/showBtnService"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:text="Submit"
+        android:text="show"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="470dp"
         android:background="@drawable/button"/>
@@ -126,7 +126,7 @@
         android:id="@+id/deleteBtnService"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:text="Update"
+        android:text="delete"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="570dp"
         android:background="@drawable/button"/>

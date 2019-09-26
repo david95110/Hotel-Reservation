@@ -55,7 +55,7 @@ public class GetserviceActivity extends AppCompatActivity {
         editTime=(EditText)findViewById(R.id.editTimeService);
         confirmBtn=(Button) findViewById(R.id.confirmBtnService);
         service= new Service();
-        databaseService = FirebaseDatabase.getInstance().getReference().child("Service");
+        databaseService = FirebaseDatabase.getInstance().getReference().child("Service-Information");
         databaseService.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
