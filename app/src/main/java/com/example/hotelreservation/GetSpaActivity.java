@@ -28,12 +28,13 @@ public class GetSpaActivity extends AppCompatActivity {
     EditText roomNumber;
     EditText phoneNum;
     EditText cusName;
-    Spinner serviceType;
+    Spinner spaType;
     EditText editTime;
     Button confirmBtn;
     Button viewBtn;
     long spaId =0;
     DatabaseReference databaseSpa;
+    Spa spaactivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,9 +62,11 @@ public class GetSpaActivity extends AppCompatActivity {
         roomNumber=(EditText)findViewById(R.id.roomNumberSpa);
         phoneNum=(EditText)findViewById(R.id.phoneNumSpa);
         cusName=(EditText)findViewById(R.id.cusNameSpa);
-        serviceType=(Spinner) findViewById(R.id.spinnerSpa);
+        spaType=(Spinner) findViewById(R.id.spinnerSpa);
         editTime=(EditText)findViewById(R.id.timeSpa);
         confirmBtn=(Button)findViewById(R.id.confirmBtnSpa);
+
+        spaactivity= new Spa();
 
         databaseSpa.addValueEventListener(new ValueEventListener() {
             @Override
@@ -78,40 +81,43 @@ public class GetSpaActivity extends AppCompatActivity {
             }
         });
 
+        confirmBtn.setEnabled(false);
+
         confirmBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                addSpa();
+
+                if (roomNumber.length() == 4) {
+
+
+                    if (phoneNum.length() == 10) {
+
+                        spaactivity.setRoomNumber(roomNumber.getText().toString().trim());
+                        spaactivity.setPhoneNumber(phoneNum.getText().toString().trim());
+                        spaactivity.setCustomerName(cusName.getText().toString().trim());
+                        spaactivity.setSpaType(spaType.getSelectedItem().toString().trim());
+                        spaactivity.setTime(editTime.getText().toString().trim());
+
+                        databaseSpa.child(String.valueOf(spaId+1)).setValue(spaactivity);
+                        Toast.makeText(GetSpaActivity.this, "Data insert successfully", Toast.LENGTH_LONG).show();
+
+                    }
+                    else {
+                        Toast.makeText(GetSpaActivity.this, "Enter valid Phone number", Toast.LENGTH_LONG).show();
+                    }
+
+                }else {
+                    Toast.makeText(GetSpaActivity.this, "Enter valid Room number", Toast.LENGTH_LONG).show();
+
+                }
             }
         });
-
-        confirmBtn.setEnabled(false);
 
         roomNumber.addTextChangedListener(spaTextWatcher);
         phoneNum.addTextChangedListener(spaTextWatcher);
         cusName.addTextChangedListener(spaTextWatcher);
         editTime.addTextChangedListener(spaTextWatcher);
 
-    }
-
-    private  void addSpa(){
-        String room = roomNumber.getText().toString().trim();
-        String phone = phoneNum.getText().toString().trim();
-        String name = cusName.getText().toString().trim();
-        String spaT = serviceType.getSelectedItem().toString();
-        String time = editTime.getText().toString().trim();
-
-        if(!TextUtils.isEmpty(room)){
-            String spaId=databaseSpa.push().getKey();
-
-            Spa spa = new Spa(spaId,room,phone,name,spaT,time);
-            databaseSpa.child(String.valueOf(spaId +1)).setValue(spa);
-
-            Toast.makeText(this,"Data insert successfully",Toast.LENGTH_LONG).show();
-
-        }else{
-            Toast.makeText(this,"You should enter a Room Number",Toast.LENGTH_LONG).show();
-        }
 
 
     }

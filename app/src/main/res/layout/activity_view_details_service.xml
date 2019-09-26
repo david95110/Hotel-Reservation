@@ -105,14 +105,7 @@
 
 
 
-    <Button
-        android:id="@+id/showBtnService"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:text="show"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="470dp"
-        android:background="@drawable/button"/>
+
 
 
     <Button
@@ -121,7 +114,7 @@
         android:layout_height="40dp"
         android:text="Update"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="500dp"
         android:background="@drawable/button"/>
 
     <Button
@@ -130,7 +123,7 @@
         android:layout_height="40dp"
         android:text="delete"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="570dp"
+        android:layout_marginTop="550dp"
         android:background="@drawable/button"/>
 
     <Space

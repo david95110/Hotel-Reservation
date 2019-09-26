@@ -4,7 +4,7 @@
     android:id="@+id/spinnerTarget"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:hint="Select Activity Type"
+    android:hint="Select Spa Type"
     android:gravity="center"
     android:fontFamily="sans-serif-condensed"
     android:textSize="20sp"

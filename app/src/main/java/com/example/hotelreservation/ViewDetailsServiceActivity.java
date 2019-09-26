@@ -35,7 +35,6 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
         name = (EditText) findViewById(R.id.cusNameService);
         service = (EditText) findViewById(R.id.serviceTypeValue);
         timeEdit = (EditText) findViewById(R.id.editTimeService);
-        showBtn = (Button) findViewById(R.id.showBtnService);
         editBtn = (Button) findViewById(R.id.updateBtnService);
         Button deleteBtn = (Button) findViewById(R.id.deleteBtnService);
 

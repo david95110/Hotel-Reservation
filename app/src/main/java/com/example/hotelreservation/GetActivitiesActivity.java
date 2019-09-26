@@ -95,9 +95,15 @@ public class GetActivitiesActivity extends AppCompatActivity   {
                         databaseService.child(String.valueOf(activityId+1)).setValue(activity1);
                         Toast.makeText(GetActivitiesActivity.this, "Data insert successfully", Toast.LENGTH_LONG).show();
 
-                    }Toast.makeText(GetActivitiesActivity.this, "Enter valid Phone number", Toast.LENGTH_LONG).show();
+                    }
+                    else {
+                        Toast.makeText(GetActivitiesActivity.this, "Enter valid Phone number", Toast.LENGTH_LONG).show();
+                    }
 
-                }Toast.makeText(GetActivitiesActivity.this,"Enter valid Room number",Toast.LENGTH_LONG).show();
+                }else {
+                    Toast.makeText(GetActivitiesActivity.this, "Enter valid Room number", Toast.LENGTH_LONG).show();
+
+                }
             }
         });
 
