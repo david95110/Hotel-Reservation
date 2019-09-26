@@ -1,3 +1,4 @@
+
 package com.example.hotelreservation;
 
 import androidx.annotation.NonNull;
@@ -49,7 +50,7 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
                         String phoneNumber=dataSnapshot.child("phoneNumber").getValue().toString();
                         String serviceType=dataSnapshot.child("serviceType").getValue().toString();
                         String time=dataSnapshot.child("time").getValue().toString();
-            //if(rm.equlsTo()roomNumber){
+                        //if(rm.equlsTo()roomNumber){
                         room.setText(roomNumber);
                         phone.setText(phoneNumber);
                         name.setText(customerName);

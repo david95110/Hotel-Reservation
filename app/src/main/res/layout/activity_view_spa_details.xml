@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewSpaDetailsActivity"
+    android:background="@drawable/confirm">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:text="MianLand Hotel"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View your Details "
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
+
+
+
+        <EditText
+            android:id="@+id/roomNumberSpa"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/ecittxt_login"
+            android:ems="10"
+            android:hint="Room Number"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/phoneNumSpa"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/ecittxt_login"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/cusNameSpa"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/ecittxt_login"
+            android:ems="10"
+            android:hint="Customer Name"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/spinnerSpa"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/ecittxt_login"
+            android:ems="10"
+            android:hint="Spa Type"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/timeSpa"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/ecittxt_login"
+            android:ems="10"
+            android:hint="Time"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@android:color/black"
+            />
+
+        <Button
+            android:id="@+id/showBtnService"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="show"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/button"/>
+
+
+        <Button
+            android:id="@+id/updateBtnService"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Update"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="520dp"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:id="@+id/deleteBtnService"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="delete"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="570dp"
+            android:background="@drawable/button"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:layout_marginTop="660dp"/>
+
+
+
+</RelativeLayout>
+
+

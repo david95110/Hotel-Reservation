@@ -180,5 +180,14 @@
         <item>Pool</item>
     </string-array>
 
+    <string name="app_name_spa">Hotel Reservation</string>
+
+    <string-array name="menuSpa">
+        <item></item>
+        <item>Nail Polish</item>
+        <item>Foot therapy</item>
+        <item>Oily Therapy</item>
+    </string-array>
+
 
 </resources>

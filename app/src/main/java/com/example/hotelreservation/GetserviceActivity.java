@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -54,7 +55,9 @@ public class GetserviceActivity extends AppCompatActivity {
         serviceType=(Spinner) findViewById(R.id.spinnerService);
         editTime=(EditText)findViewById(R.id.editTimeService);
         confirmBtn=(Button) findViewById(R.id.confirmBtnService);
-        service= new Service();
+
+
+
         databaseService = FirebaseDatabase.getInstance().getReference().child("Service-Information");
         databaseService.addValueEventListener(new ValueEventListener() {
             @Override
@@ -94,6 +97,9 @@ public class GetserviceActivity extends AppCompatActivity {
                 }Toast.makeText(GetserviceActivity.this, "Enter valid Room number", Toast.LENGTH_LONG).show();
             }
         });
+
+
+
 
         veiwBtn = (Button)findViewById(R.id.viewBtnService);
         veiwBtn.setOnClickListener(new View.OnClickListener(){
@@ -139,5 +145,6 @@ public class GetserviceActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ViewDetailsServiceActivity.class);
         startActivity(intent);
     }
+
 
 }
