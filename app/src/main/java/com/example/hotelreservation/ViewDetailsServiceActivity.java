@@ -129,49 +129,48 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
 
     public void showData() {
         database.addValueEventListener(new ValueEventListener() {
-                                           @Override
-                                           public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                               String roomNumber = dataSnapshot.child("roomNumber").getValue().toString();
-                                               String customerName = dataSnapshot.child("customerName").getValue().toString();
-                                               String phoneNumber = dataSnapshot.child("phoneNumber").getValue().toString();
-                                               String serviceType = dataSnapshot.child("serviceType").getValue().toString();
-                                               String time = dataSnapshot.child("time").getValue().toString();
-                                               //if(rm.equlsTo()roomNumber){
-                                               room.setText(roomNumber);
-                                               phone.setText(phoneNumber);
-                                               name.setText(customerName);
-                                               service.setText(serviceType);
-                                               timeEdit.setText(time);
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                String roomNumber = dataSnapshot.child("roomNumber").getValue().toString();
+                String customerName = dataSnapshot.child("customerName").getValue().toString();
+                String phoneNumber = dataSnapshot.child("phoneNumber").getValue().toString();
+                String serviceType = dataSnapshot.child("serviceType").getValue().toString();
+                String time = dataSnapshot.child("time").getValue().toString();
+                //if(rm.equlsTo()roomNumber){
+                    room.setText(roomNumber);
+                    phone.setText(phoneNumber);
+                    name.setText(customerName);
+                    service.setText(serviceType);
+                    timeEdit.setText(time);
 
 
-                                           }
+            }
 
-                                           @Override
-                                           public void onCancelled(@NonNull DatabaseError databaseError) {
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
-                                           }
-                                       }
+            }
+        }
         );
     }
 
 
     public void deleteData() {
         database.addValueEventListener(new ValueEventListener() {
-                                           @Override
-                                           public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                               dataSnapshot.getRef().child("roomNumber").setValue("");
-                                               dataSnapshot.getRef().child("customerName").setValue("");
-                                               dataSnapshot.getRef().child("phoneNumber").setValue("");
-                                               dataSnapshot.getRef().child("serviceType").setValue("");
-                                               dataSnapshot.getRef().child("time").setValue("");
-                                           }
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                dataSnapshot.getRef().child("roomNumber").setValue("");
+                dataSnapshot.getRef().child("customerName").setValue("");
+                dataSnapshot.getRef().child("phoneNumber").setValue("");
+                dataSnapshot.getRef().child("serviceType").setValue("");
+                dataSnapshot.getRef().child("time").setValue("");
+            }
 
-                                           @Override
-                                           public void onCancelled(@NonNull DatabaseError databaseError) {
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
-                                           }
-                                       }
-        );
+            }
+        });
     }
 
 }

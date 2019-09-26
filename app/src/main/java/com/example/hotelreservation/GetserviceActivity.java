@@ -56,7 +56,7 @@ public class GetserviceActivity extends AppCompatActivity {
         editTime=(EditText)findViewById(R.id.editTimeService);
         confirmBtn=(Button) findViewById(R.id.confirmBtnService);
 
-
+        service= new Service();
 
         databaseService = FirebaseDatabase.getInstance().getReference().child("Service-Information");
         databaseService.addValueEventListener(new ValueEventListener() {
@@ -90,11 +90,15 @@ public class GetserviceActivity extends AppCompatActivity {
                         service.setTime(editTime.getText().toString().trim());
 
                         databaseService.child(String.valueOf(serviceId +1)).setValue(service);
-                        Toast.makeText(GetserviceActivity.this, "Data insert successfully", Toast.LENGTH_LONG).show();
+                        Toast.makeText(GetserviceActivity.this, "Data Inserted successfully", Toast.LENGTH_LONG).show();
 
-                    }Toast.makeText(GetserviceActivity.this, "Enter valid Phone number", Toast.LENGTH_LONG).show();
+                    }else {
+                        Toast.makeText(GetserviceActivity.this, "Enter valid Phone number", Toast.LENGTH_LONG).show();
+                    }
 
-                }Toast.makeText(GetserviceActivity.this, "Enter valid Room number", Toast.LENGTH_LONG).show();
+                }else {
+                    Toast.makeText(GetserviceActivity.this, "Enter valid Room number", Toast.LENGTH_LONG).show();
+                }
             }
         });
 

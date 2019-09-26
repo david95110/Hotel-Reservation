@@ -57,7 +57,9 @@ public class GetActivitiesActivity extends AppCompatActivity   {
         activityType=(Spinner) findViewById(R.id.spinnerActivity);
         editTime=(EditText)findViewById(R.id.timeActivity);
         confirmBtn=(Button) findViewById(R.id.confirmBtnActivity);
+
         activity1= new Activity();
+
         databaseService = FirebaseDatabase.getInstance().getReference().child("Activity-Information");
         databaseService.addValueEventListener(new ValueEventListener() {
             @Override
