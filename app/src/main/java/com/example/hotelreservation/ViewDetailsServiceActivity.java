@@ -22,7 +22,7 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
 
     private EditText room, phone, name, timeEdit, service;
     Button showBtn, editBtn;
-    private static DatabaseReference database = FirebaseDatabase.getInstance().getReference().child("Service-Information").child("4");
+    private static DatabaseReference database = FirebaseDatabase.getInstance().getReference().child("Service-Information").child("3");
 
 
     @Override
@@ -124,11 +124,14 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
                 dataSnapshot.getRef().child("roomNumber").setValue("");
                 dataSnapshot.getRef().child("customerName").setValue("");
                 dataSnapshot.getRef().child("phoneNumber").setValue("");
                 dataSnapshot.getRef().child("serviceType").setValue("");
                 dataSnapshot.getRef().child("time").setValue("");
+
+                Toast.makeText(ViewDetailsServiceActivity.this, "Data Deleted", Toast.LENGTH_LONG).show();
             }
 
             @Override

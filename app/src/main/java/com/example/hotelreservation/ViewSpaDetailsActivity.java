@@ -19,7 +19,7 @@ public class ViewSpaDetailsActivity extends AppCompatActivity {
 
     private EditText room, phone, name, timeEdit, spaService;
     Button showBtn, editBtn,deleteBtn;
-    private static DatabaseReference databaseSpa = FirebaseDatabase.getInstance().getReference().child("Spa-Information").child("2");
+    private static DatabaseReference databaseSpa = FirebaseDatabase.getInstance().getReference().child("Spa-Information").child("4");
 
 
     @Override
@@ -30,7 +30,7 @@ public class ViewSpaDetailsActivity extends AppCompatActivity {
         room = (EditText) findViewById(R.id.roomNumberSpa);
         phone = (EditText) findViewById(R.id.phoneNumSpa);
         name = (EditText) findViewById(R.id.cusNameSpa);
-        spaService = (EditText) findViewById(R.id.spinnerActivity);
+        spaService = (EditText) findViewById(R.id.spinnerSpa);
         timeEdit = (EditText) findViewById(R.id.timeSpa);
         showBtn=(Button) findViewById(R.id.showBtnSpa);
         editBtn = (Button) findViewById(R.id.updateBtnSpa);
@@ -79,6 +79,14 @@ public class ViewSpaDetailsActivity extends AppCompatActivity {
             }
         });
 
+        deleteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                deleteData();
+            }
+        });
+
+
 
     }
 
@@ -107,5 +115,26 @@ public class ViewSpaDetailsActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void deleteData() {
+        databaseSpa.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                dataSnapshot.getRef().child("roomNumber").setValue("");
+                dataSnapshot.getRef().child("customerName").setValue("");
+                dataSnapshot.getRef().child("phoneNumber").setValue("");
+                dataSnapshot.getRef().child("spaType").setValue("");
+                dataSnapshot.getRef().child("time").setValue("");
+
+                Toast.makeText(ViewSpaDetailsActivity.this, "Data Deleted", Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+    }
+
 
 }

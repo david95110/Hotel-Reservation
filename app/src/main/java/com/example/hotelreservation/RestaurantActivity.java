@@ -77,7 +77,7 @@ public class RestaurantActivity extends AppCompatActivity {
                 R.layout.menu, getResources().getStringArray(R.array.menuPancake));
 
         myAdapter2.setDropDownViewResource(R.layout.menu);
-        mySpinner2.setAdapter(myAdapter1);
+        mySpinner2.setAdapter(myAdapter2);
 
         check2 = (CheckBox) findViewById(R.id.checkBox2);
         check2.setOnClickListener(new View.OnClickListener() {
@@ -96,7 +96,7 @@ public class RestaurantActivity extends AppCompatActivity {
                 R.layout.menu, getResources().getStringArray(R.array.menuPasta));
 
         myAdapter3.setDropDownViewResource(R.layout.menu);
-        mySpinner3.setAdapter(myAdapter1);
+        mySpinner3.setAdapter(myAdapter3);
 
         check3 = (CheckBox) findViewById(R.id.checkBox3);
         check3.setOnClickListener(new View.OnClickListener() {
@@ -115,7 +115,7 @@ public class RestaurantActivity extends AppCompatActivity {
                 R.layout.menu, getResources().getStringArray(R.array.menuTaraditional));
 
         myAdapter4.setDropDownViewResource(R.layout.menu);
-        mySpinner4.setAdapter(myAdapter1);
+        mySpinner4.setAdapter(myAdapter4);
 
         check4 = (CheckBox) findViewById(R.id.checkBox4);
         check4.setOnClickListener(new View.OnClickListener() {

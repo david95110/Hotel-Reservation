@@ -72,7 +72,7 @@
             android:name=".GetserviceActivity"
             android:theme="@style/LoginAppTheme" />
         <activity
-            android:name=".MainActivity"
+            android:name=".WelcomeActivity"
             android:theme="@style/AppTheme" />
     </application>
 

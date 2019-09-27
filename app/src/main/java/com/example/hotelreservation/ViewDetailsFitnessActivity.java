@@ -77,6 +77,13 @@ public class ViewDetailsFitnessActivity extends AppCompatActivity {
             }
         });
 
+        deleteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                deleteData();
+            }
+        });
+
 
     }
 
@@ -97,6 +104,26 @@ public class ViewDetailsFitnessActivity extends AppCompatActivity {
                 timeEdit.setText(time);
 
 
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    public void deleteData() {
+        databaseActivity.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                dataSnapshot.getRef().child("roomNumber").setValue("");
+                dataSnapshot.getRef().child("customerName").setValue("");
+                dataSnapshot.getRef().child("phoneNumber").setValue("");
+                dataSnapshot.getRef().child("spaType").setValue("");
+                dataSnapshot.getRef().child("time").setValue("");
+
+                Toast.makeText(ViewDetailsFitnessActivity.this, "Data Deleted", Toast.LENGTH_LONG).show();
             }
 
             @Override
