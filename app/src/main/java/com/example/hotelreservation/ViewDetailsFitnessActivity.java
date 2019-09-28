@@ -19,7 +19,7 @@ public class ViewDetailsFitnessActivity extends AppCompatActivity {
 
     private EditText room, phone, name, timeEdit, activityService;
     Button showBtn, editBtn,deleteBtn;
-    private static DatabaseReference databaseActivity = FirebaseDatabase.getInstance().getReference().child("Activity-Information").child("2");
+    private static DatabaseReference databaseActivity = FirebaseDatabase.getInstance().getReference().child("Activity-Information").child("6");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,7 +120,7 @@ public class ViewDetailsFitnessActivity extends AppCompatActivity {
                 dataSnapshot.getRef().child("roomNumber").setValue("");
                 dataSnapshot.getRef().child("customerName").setValue("");
                 dataSnapshot.getRef().child("phoneNumber").setValue("");
-                dataSnapshot.getRef().child("spaType").setValue("");
+                dataSnapshot.getRef().child("activity").setValue("");
                 dataSnapshot.getRef().child("time").setValue("");
 
                 Toast.makeText(ViewDetailsFitnessActivity.this, "Data Deleted", Toast.LENGTH_LONG).show();

@@ -19,7 +19,7 @@ public class ViewSpaDetailsActivity extends AppCompatActivity {
 
     private EditText room, phone, name, timeEdit, spaService;
     Button showBtn, editBtn,deleteBtn;
-    private static DatabaseReference databaseSpa = FirebaseDatabase.getInstance().getReference().child("Spa-Information").child("4");
+    private static DatabaseReference databaseSpa = FirebaseDatabase.getInstance().getReference().child("Spa-Information").child("6");
 
 
     @Override

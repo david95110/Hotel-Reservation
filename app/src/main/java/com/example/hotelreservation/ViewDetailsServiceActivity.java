@@ -22,7 +22,7 @@ public class ViewDetailsServiceActivity extends AppCompatActivity {
 
     private EditText room, phone, name, timeEdit, service;
     Button showBtn, editBtn;
-    private static DatabaseReference database = FirebaseDatabase.getInstance().getReference().child("Service-Information").child("3");
+    private static DatabaseReference database = FirebaseDatabase.getInstance().getReference().child("Service-Information").child("6");
 
 
     @Override
